@@ -1,5 +1,6 @@
 import React from "react";
 import { ReactNode } from "react";
+import styles from "./Filter.module.css";
 
 interface FilterProps {
   label: string;
@@ -10,12 +11,13 @@ interface FilterProps {
 
 const Filter: React.FC<FilterProps> = ({ label, options, value, onChange }) => {
   return (
-    <div>
+    <div className={styles.filter}>
       <label htmlFor={`${label}`}>{label}</label>
       <select
         id={`${label}Filter`}
         value={value}
         onChange={(e) => onChange(e.target.value)}
+        className={styles.select}
       >
         <option value="">All</option>
         {options.map((opt) => (
