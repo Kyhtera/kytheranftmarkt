@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           </div>
           <div className={styles.heroAssetFrame}>
             <Image
-              src="/hero-asset.png"
+              src="/superman_kythera.png"
               width={860}
               height={540}
               alt="Hero asset, NFT marketplace"
@@ -37,31 +37,29 @@ const Home: NextPage = () => {
           <div className={styles.heroBodyContainer}>
             <div className={styles.heroBody}>
               <h1 className={styles.heroTitle}>
-                <span className={styles.heroTitleGradient}>
-                  Build NFT Marketplaces
-                </span>
+                <span className={styles.heroTitleGradient}>Kythera NFT</span>
                 <br />
                 faster than ever.
               </h1>
               <p className={styles.heroSubtitle}>
                 <Link
                   className={styles.link}
-                  href="https://thirdweb.com"
+                  href="https://www.kythera.com.tr/"
                   target="_blank"
                 >
-                  thirdweb
+                  Kythera NFT
                 </Link>{" "}
-                gives you the tools you need to create audited, performant, and
-                flexible NFT marketplaces in <b>hours</b>, <i>not months</i>.
+                Enjoy with unique CaT NFT. Buy Sell and Earn <b>Own</b>,{" "}
+                <i>Use</i>.
               </p>
 
               <div className={styles.heroCtaContainer}>
                 <Link className={styles.heroCta} href="/buy">
-                  Get Started
+                  My WebSite
                 </Link>
                 <Link
                   className={styles.secondaryCta}
-                  href="https://github.com/thirdweb-example/marketplace-v3"
+                  href="https://github.com/Kyhtera"
                   target="_blank"
                 >
                   GitHub
