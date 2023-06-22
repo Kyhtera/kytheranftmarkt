@@ -55,14 +55,14 @@ const Home: NextPage = () => {
 
               <div className={styles.heroCtaContainer}>
                 <Link className={styles.heroCta} href="/buy">
-                  My WebSite
+                  Lets Buy NFT
                 </Link>
                 <Link
                   className={styles.secondaryCta}
-                  href="https://github.com/Kyhtera"
+                  href="https://www.kythera.com.tr/"
                   target="_blank"
                 >
-                  GitHub
+                  My Website
                 </Link>
               </div>
             </div>
