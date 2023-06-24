@@ -39,7 +39,7 @@ const Home: NextPage = () => {
               <h1 className={styles.heroTitle}>
                 <span className={styles.heroTitleGradient}>Kythera NFT</span>
                 <br />
-                faster than ever.
+                Most enjoyable NFTs ever
               </h1>
               <p className={styles.heroSubtitle}>
                 <Link

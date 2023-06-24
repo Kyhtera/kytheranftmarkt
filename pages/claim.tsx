@@ -36,9 +36,7 @@ function Home() {
   return (
     <div className={styles.nftContainer}>
       <Toaster position="bottom-center" reverseOrder={false} />
-      <h1 className={styles.notification}>
-        Each wallet is limited to a maximum of 3 NFT mints
-      </h1>
+      <h1 className={styles.notification}>5 NFT mints for each Wallet</h1>
       <main className={styles.mintInfoContainer}>
         <div className={styles.imageSide}>
           <Image
