@@ -82,8 +82,7 @@ export default function Buy() {
           value={selectedFilters["backgrounds"]}
           onChange={(value) => handleFilterChange("backgrounds", value)}
         />
-      </div>
-      <div>
+
         <Filter
           label="code"
           options={Array.from(
@@ -98,8 +97,7 @@ export default function Buy() {
           value={selectedFilters["code"]}
           onChange={(value) => handleFilterChange("code", value)}
         />
-      </div>
-      <div>
+
         <Filter
           label="eyes"
           options={Array.from(
@@ -114,9 +112,7 @@ export default function Buy() {
           value={selectedFilters["eyes"]}
           onChange={(value) => handleFilterChange("eyes", value)}
         />
-      </div>
 
-      <div>
         <Filter
           label="mouth"
           options={Array.from(
